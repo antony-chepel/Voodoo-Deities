@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1004157457589",
+    "project_id": "voodoo-deities",
+    "storage_bucket": "voodoo-deities.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004157457589:android:304a9fdb35407d168ddafc",
+        "android_client_info": {
+          "package_name": "com.socialquantum.acityi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004157457589-2mpnmompkrqrmnjqhm1lk3lfd7lbr87d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCaVPAI_TlnFFU8073RcH9lD0gcodJHaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004157457589-2mpnmompkrqrmnjqhm1lk3lfd7lbr87d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

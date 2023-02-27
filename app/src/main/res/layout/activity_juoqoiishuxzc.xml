@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_vod_dent"
+    tools:context=".vccvcd.Juoqoiishuxzc">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/idjsjiijsa"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/vd_prm_clr_crd">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/vd_dent_it_9" />
+
+
+            <TextView
+                android:id="@+id/kodfkoko"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/vd_fnt_bld"
+                android:includeFontPadding="false"
+                android:shadowColor="@color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text="539273"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.33"
+                app:layout_constraintStart_toEndOf="@+id/imageView5"
+                app:layout_constraintTop_toTopOf="@+id/imageView5" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vd_dent_it_7" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Voodoo Deites"
+        android:textSize="30sp"
+        android:fontFamily="@font/vd_fnt_bld"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/bvcikodkoifjjied"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/vd_fnt_bld"
+        android:text="Start Play"
+        android:backgroundTint="@color/vd_prm_clr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idjsjiijsa" />
+
+    <Button
+        android:id="@+id/oowpqpkos"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/vd_fnt_bld"
+        android:text="Options"
+        android:backgroundTint="@color/vd_prm_clr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bvcikodkoifjjied" />
+
+    <Button
+        android:id="@+id/chuxvjiji"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/vd_prm_clr"
+        android:text="Exit"
+        android:fontFamily="@font/vd_fnt_bld"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oowpqpkos" />
+</androidx.constraintlayout.widget.ConstraintLayout>

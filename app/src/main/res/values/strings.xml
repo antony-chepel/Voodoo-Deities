@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Voodoo Deities</string>
+    <string name="camera_permission_granted_txt">Permission granted</string>
+    <string name="facebook_app_id">730973005086275</string>
+    <string name="camera_permission_denied_txt">Permission denied</string>
+    <string name="facebook_client_token">35e93306ea100a5495390ace782d6ae9</string>
+    <string name="cannot_open_file_chooser_txt">Can not open file chooser</string>
+    <string name="fb_login_protocol_scheme">fb730973005086275</string>
+
+</resources>
